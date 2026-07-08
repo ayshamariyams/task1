@@ -8,7 +8,6 @@ public class hello {
         int roundsPlayed = 0;
         int roundsWon = 0;
         char playAgain;
-
         do {
             roundsPlayed++;
             int targetNumber = ThreadLocalRandom.current().nextInt(1, 101);
